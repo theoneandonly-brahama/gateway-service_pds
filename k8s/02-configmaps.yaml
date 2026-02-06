@@ -1,0 +1,49 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: patient-service-config
+  namespace: healthcare
+data:
+  NODE_ENV: "production"
+  PORT: "3001"
+  LOG_LEVEL: "info"
+  
+  EUREKA_HOST: "eureka-service"
+  EUREKA_PORT: "8761"
+  
+  KEYCLOAK_REALM: "healthcare"
+  KEYCLOAK_AUTH_SERVER_URL: "http://keycloak-service:8080"
+  KEYCLOAK_CLIENT_ID: "patient-service"
+  
+  GATEWAY_URL: "http://gateway-service:8762"
+  
+  DB_HOST: "postgres-service"
+  DB_PORT: "5432"
+  DB_NAME: "healthcare_db"
+  DB_USER: "postgres"
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gateway-config
+  namespace: healthcare
+data:
+  KEYCLOAK_AUTH_SERVER_URL: "http://keycloak-service:8080"
+  SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_JWK_SET_URI: "http://keycloak-service:8080/realms/healthcare/protocol/openid-connect/certs"
+  KEYCLOAK_REALM: "healthcare"
+  KEYCLOAK_CLIENT_ID: "patient-service"
+  EUREKA_HOST: "eureka-service"
+  EUREKA_PORT: "8761"
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-init
+  namespace: healthcare
+data:
+  init.sql: |
+    -- Create database if it doesn't exist
+    SELECT 'CREATE DATABASE healthcare_db'
+    WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'healthcare_db')\gexec

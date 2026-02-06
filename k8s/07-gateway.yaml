@@ -1,0 +1,121 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gateway
+  namespace: healthcare
+  labels:
+    app: gateway
+    version: v1
+  annotations:
+    linkerd.io/inject: enabled
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: gateway
+  template:
+    metadata:
+      labels:
+        app: gateway
+        version: v1
+      annotations:
+        linkerd.io/inject: enabled
+        config.linkerd.io/proxy-cpu-request: "100m"
+        config.linkerd.io/proxy-memory-request: "128Mi"
+    spec:
+      containers:
+      - name: gateway
+        image: edobr/gateway:latest
+        imagePullPolicy: Always
+        ports:
+        - name: http
+          containerPort: 8762
+          protocol: TCP
+        env:
+        - name: SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_JWK_SET_URI
+          value: "http://keycloak-service:8080/realms/healthcare/protocol/openid-connect/certs"
+        - name: SPRING_PROFILES_ACTIVE
+          value: "kubernetes"
+        - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+          value: "http://eureka-service:8761/eureka/"
+        - name: KEYCLOAK_AUTH_SERVER_URL
+          valueFrom:
+            configMapKeyRef:
+              name: gateway-config
+              key: KEYCLOAK_AUTH_SERVER_URL
+        - name: KEYCLOAK_REALM
+          valueFrom:
+            configMapKeyRef:
+              name: gateway-config
+              key: KEYCLOAK_REALM
+        - name: KEYCLOAK_CLIENT_ID
+          valueFrom:
+            configMapKeyRef:
+              name: gateway-config
+              key: KEYCLOAK_CLIENT_ID
+        - name: KEYCLOAK_ADMIN_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: gateway-secrets
+              key: KEYCLOAK_ADMIN_USERNAME
+        - name: KEYCLOAK_ADMIN_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: gateway-secrets
+              key: KEYCLOAK_ADMIN_PASSWORD
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 8762
+          initialDelaySeconds: 120
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 8762
+          initialDelaySeconds: 90
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+        startupProbe:
+          httpGet:
+            path: /actuator/health
+            port: 8762
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          failureThreshold: 15
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gateway-service
+  namespace: healthcare
+  labels:
+    app: gateway
+  annotations:
+    linkerd.io/inject: enabled
+spec:
+  selector:
+    app: gateway
+  ports:
+  - name: http
+    port: 8762
+    targetPort: 8762
+    protocol: TCP
+    nodePort: 30762
+  type: NodePort

@@ -1,0 +1,752 @@
+2026-01-19 17:08:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:08:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:08:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:09:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:09:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:09:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:09:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:09:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:09:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:10:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:10:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:10:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:10:48 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-01-19 17:10:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:10:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:10:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:11:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:11:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:11:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:11:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:12:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:12:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:12:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:12:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:12:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:12:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:13:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:13:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:13:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:13:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:13:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:13:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:14:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:14:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:14:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:14:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:14:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:14:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:15:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:15:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:15:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:15:48 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-01-19 17:15:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:15:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:15:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:16:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:16:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:16:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:16:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:16:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:16:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:17:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:17:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:17:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:17:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:17:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:17:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:18:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:18:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:18:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:18:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:18:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:18:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:19:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:19:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:19:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:19:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:19:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:19:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:20:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:20:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:20:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:20:48 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-01-19 17:20:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:20:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:20:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:21:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:21:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:21:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:21:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:21:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:21:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:22:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:22:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:22:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:22:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:22:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:22:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/logout', method=POST}
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.PathPatternParserServerWebExchangeMatcher - Request 'GET /api/patients' doesn't match 'POST /logout'
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/api/auth/login', method=POST}
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.PathPatternParserServerWebExchangeMatcher - Request 'GET /api/patients' doesn't match 'POST /api/auth/login'
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/api/auth/register', method=POST}
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.PathPatternParserServerWebExchangeMatcher - Request 'GET /api/patients' doesn't match 'POST /api/auth/register'
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/api/auth/refresh', method=POST}
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.PathPatternParserServerWebExchangeMatcher - Request 'GET /api/patients' doesn't match 'POST /api/auth/refresh'
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/actuator/health', method=null}
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.PathPatternParserServerWebExchangeMatcher - Request 'GET /api/patients' doesn't match 'null /actuator/health'
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/api/patients/me', method=GET}
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.PathPatternParserServerWebExchangeMatcher - Request 'GET /api/patients' doesn't match 'GET /api/patients/me'
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/api/patients/**', method=GET}
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.PathPatternParserServerWebExchangeMatcher - Checking match of request : '/api/patients'; against '/api/patients/**'
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.u.m.OrServerWebExchangeMatcher - matched
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.a.DelegatingReactiveAuthorizationManager - Checking authorization on '/api/patients' using org.springframework.security.authorization.AuthorityReactiveAuthorizationManager@358a9d21
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.s.w.s.a.AuthorizationWebFilter - Authorization successful
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.c.g.h.RoutePredicateHandlerMapping - Route matched: patient-service
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.c.g.h.RoutePredicateHandlerMapping - Mapping [Exchange: GET http://localhost:8762/api/patients] to Route{id='patient-service', uri=lb://PATIENT-SERVICE, order=0, predicate=(RouteDefinitionRouteLocator$$Lambda$1333/0x000000080135c298 && Paths: [/api/patients/**], match trailing slash: true), gatewayFilters=[[[StripPrefix parts = 1], order = 1]], metadata={}}
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.c.g.h.RoutePredicateHandlerMapping - [a07652b4-69] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@6cd2cb2
+2026-01-19 17:22:58 [parallel-5] DEBUG o.s.c.g.handler.FilteringWebHandler - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@416a4275}, order = -2147483648], [GatewayFilterAdapter{delegate=com.example.gateway.filter.AuthLoggingFilter@3dbb3fb7}, order = -2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@36525ab}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@3f0c6b3c}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@6f289728}, order = 0], [[StripPrefix parts = 1], order = 1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@7bf65e0f}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@182cc69e}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@12f51a65}, order = 10151], [GatewayFilterAdapter{delegate=com.example.gateway.filter.UserContextFilter@68a426c3}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7c421952}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@7657d90b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@33215ffb}, order = 2147483647]]
+2026-01-19 17:23:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:23:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:23:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:23:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:23:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:23:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:24:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:24:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:24:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:24:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:24:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:24:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:25:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:25:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:25:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:25:48 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-01-19 17:25:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:25:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:25:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:26:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:26:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:26:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:26:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:26:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:26:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:27:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:27:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:27:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:27:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:27:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:27:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:28:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:28:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:28:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:28:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:28:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:28:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:29:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:29:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:29:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:29:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:29:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:29:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:30:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:30:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:30:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:30:48 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-01-19 17:30:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:30:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:30:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:31:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:31:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:31:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:31:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:31:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:31:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:32:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:32:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:32:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:32:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:32:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:32:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:33:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:33:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:33:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:33:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:33:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:33:51 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:34:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:34:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:34:21 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:34:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:34:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:34:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:35:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:35:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:35:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:35:48 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-01-19 17:35:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:35:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:35:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:36:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:36:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:36:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:36:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:36:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:36:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:37:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:37:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:37:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:37:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:37:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:37:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:38:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:38:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:38:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:38:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:38:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:38:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:39:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:39:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:39:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:39:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:39:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:39:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:40:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:40:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:40:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:40:48 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-01-19 17:40:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:40:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:40:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:41:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:41:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:41:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:41:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:41:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:41:52 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:42:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying {_genkey_0=/api/patients/**} to Path
+2026-01-19 17:42:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition patient-service applying filter {_genkey_0=1} to StripPrefix
+2026-01-19 17:42:22 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.c.g.r.RouteDefinitionRouteLocator - RouteDefinition matched: patient-service
+2026-01-19 17:42:51 [DiscoveryClient-HeartbeatExecutor-%d] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/GATEWAY/localhost:gateway:8762": Connect to http://localhost:8761 failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/GATEWAY/localhost:gateway:8762": Connect to http://localhost:8761 failed: Connection refused: no further information
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:763)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:615)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:567)
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:750)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:896)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntityInternal(DefaultRestClient.java:842)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntity(DefaultRestClient.java:831)
+	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.sendHeartBeat(RestClientEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1403)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeWithRequest(AbstractBufferingClientHttpRequest.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest$EndOfChainRequestExecution.execute(InterceptingClientHttpRequest.java:102)
+	at org.springframework.cloud.netflix.eureka.http.RestClientTransportClientFactory.lambda$newClient$2(RestClientTransportClientFactory.java:98)
+	at org.springframework.http.client.ClientHttpRequestInterceptor.lambda$apply$0(ClientHttpRequestInterceptor.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:73)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:50)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:609)
+	... 22 more
+
+2026-01-19 17:42:51 [DiscoveryClient-HeartbeatExecutor-%d] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/GATEWAY/localhost:gateway:8762": Connect to http://localhost:8761 failed: Connection refused: no further information
+2026-01-19 17:42:51 [DiscoveryClient-HeartbeatExecutor-%d] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/GATEWAY/localhost:gateway:8762": Connect to http://localhost:8761 failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/GATEWAY/localhost:gateway:8762": Connect to http://localhost:8761 failed: Connection refused: no further information
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:763)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:615)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:567)
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:750)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:896)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntityInternal(DefaultRestClient.java:842)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntity(DefaultRestClient.java:831)
+	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.sendHeartBeat(RestClientEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1403)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeWithRequest(AbstractBufferingClientHttpRequest.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest$EndOfChainRequestExecution.execute(InterceptingClientHttpRequest.java:102)
+	at org.springframework.cloud.netflix.eureka.http.RestClientTransportClientFactory.lambda$newClient$2(RestClientTransportClientFactory.java:98)
+	at org.springframework.http.client.ClientHttpRequestInterceptor.lambda$apply$0(ClientHttpRequestInterceptor.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:73)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:50)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:609)
+	... 23 more
+
+2026-01-19 17:42:51 [DiscoveryClient-HeartbeatExecutor-%d] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/GATEWAY/localhost:gateway:8762": Connect to http://localhost:8761 failed: Connection refused: no further information
+2026-01-19 17:42:51 [DiscoveryClient-HeartbeatExecutor-%d] ERROR c.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY/localhost:gateway:8762 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1403)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2026-01-19 17:42:52 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: no further information
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:763)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:615)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:567)
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:750)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:896)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntityInternal(DefaultRestClient.java:842)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntity(DefaultRestClient.java:831)
+	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.getApplicationsInternal(RestClientEurekaHttpClient.java:201)
+	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.getDelta(RestClientEurekaHttpClient.java:142)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1080)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:963)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1474)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeWithRequest(AbstractBufferingClientHttpRequest.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest$EndOfChainRequestExecution.execute(InterceptingClientHttpRequest.java:102)
+	at org.springframework.cloud.netflix.eureka.http.RestClientTransportClientFactory.lambda$newClient$2(RestClientTransportClientFactory.java:98)
+	at org.springframework.http.client.ClientHttpRequestInterceptor.lambda$apply$0(ClientHttpRequestInterceptor.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:73)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:50)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:609)
+	... 25 more
+
+2026-01-19 17:42:52 [DiscoveryClient-CacheRefreshExecutor-%d] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: no further information
+2026-01-19 17:42:52 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: no further information
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:763)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:615)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:567)
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:750)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:896)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntityInternal(DefaultRestClient.java:842)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntity(DefaultRestClient.java:831)
+	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.getApplicationsInternal(RestClientEurekaHttpClient.java:201)
+	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.getDelta(RestClientEurekaHttpClient.java:142)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1080)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:963)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1474)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeWithRequest(AbstractBufferingClientHttpRequest.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest$EndOfChainRequestExecution.execute(InterceptingClientHttpRequest.java:102)
+	at org.springframework.cloud.netflix.eureka.http.RestClientTransportClientFactory.lambda$newClient$2(RestClientTransportClientFactory.java:98)
+	at org.springframework.http.client.ClientHttpRequestInterceptor.lambda$apply$0(ClientHttpRequestInterceptor.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:73)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:50)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:609)
+	... 26 more
+
+2026-01-19 17:42:52 [DiscoveryClient-CacheRefreshExecutor-%d] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: no further information
+2026-01-19 17:42:52 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY/localhost:gateway:8762 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1080)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:963)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1474)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2026-01-19 17:42:52 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application GATEWAY with eureka with status DOWN
+2026-01-19 17:42:52 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1768840972297, current=DOWN, previous=UP]
+2026-01-19 17:42:52 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY/localhost:gateway:8762: registering service...
+2026-01-19 17:42:52 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/GATEWAY": Connect to http://localhost:8761 failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/GATEWAY": Connect to http://localhost:8761 failed: Connection refused: no further information
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:763)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:615)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:567)
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:750)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:896)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toBodilessEntity(DefaultRestClient.java:860)
+	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.register(RestClientEurekaHttpClient.java:64)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeWithRequest(AbstractBufferingClientHttpRequest.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest$EndOfChainRequestExecution.execute(InterceptingClientHttpRequest.java:102)
+	at org.springframework.cloud.netflix.eureka.http.RestClientTransportClientFactory.lambda$newClient$2(RestClientTransportClientFactory.java:98)
+	at org.springframework.http.client.ClientHttpRequestInterceptor.lambda$apply$0(ClientHttpRequestInterceptor.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:73)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:50)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:609)
+	... 24 more
+
+2026-01-19 17:42:52 [DiscoveryClient-InstanceInfoReplicator-%d] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/GATEWAY": Connect to http://localhost:8761 failed: Connection refused: no further information
+2026-01-19 17:42:52 [DiscoveryClient-InstanceInfoReplicator-%d] WARN  c.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY/localhost:gateway:8762 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2026-01-19 17:42:52 [DiscoveryClient-InstanceInfoReplicator-%d] WARN  c.n.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2026-01-19 17:42:52 [SpringApplicationShutdownHook] INFO  o.s.b.reactor.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-19 17:42:52 [netty-shutdown] INFO  o.s.b.reactor.netty.GracefulShutdown - Graceful shutdown complete
+2026-01-19 17:42:54 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-01-19 17:42:57 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-01-19 17:42:57 [SpringApplicationShutdownHook] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY/localhost:gateway:8762": Connect to http://localhost:8761 failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY/localhost:gateway:8762": Connect to http://localhost:8761 failed: Connection refused: no further information
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:763)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:615)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:567)
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:750)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:896)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toBodilessEntity(DefaultRestClient.java:860)
+	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.cancel(RestClientEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:411)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:237)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:193)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:209)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:795)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:745)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1500)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1493)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1225)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1186)
+	at org.springframework.boot.web.server.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:158)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1132)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeWithRequest(AbstractBufferingClientHttpRequest.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest$EndOfChainRequestExecution.execute(InterceptingClientHttpRequest.java:102)
+	at org.springframework.cloud.netflix.eureka.http.RestClientTransportClientFactory.lambda$newClient$2(RestClientTransportClientFactory.java:98)
+	at org.springframework.http.client.ClientHttpRequestInterceptor.lambda$apply$0(ClientHttpRequestInterceptor.java:89)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:73)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:50)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:609)
+	... 40 more
+
+2026-01-19 17:42:57 [SpringApplicationShutdownHook] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/GATEWAY/localhost:gateway:8762": Connect to http://localhost:8761 failed: Connection refused: no further information
+2026-01-19 17:42:57 [SpringApplicationShutdownHook] ERROR c.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY/localhost:gateway:8762 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:411)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:237)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:193)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:209)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:795)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:745)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1500)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1493)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1225)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1186)
+	at org.springframework.boot.web.server.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:158)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1132)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2026-01-19 17:42:57 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

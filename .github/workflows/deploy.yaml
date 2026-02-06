@@ -1,0 +1,223 @@
+name: Build, Scan, Sign, and Deploy Gateway
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+env:
+  DOCKER_IMAGE: ${{ secrets.DOCKER_USERNAME }}/gateway
+  KUBE_NAMESPACE: healthcare
+
+jobs:
+  code-quality:
+    name: Code Quality & Security Scans
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Build project
+      run: mvn clean verify -DskipTests
+
+    - name: SonarQube Scan
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      run: |
+        mvn sonar:sonar \
+          -Dsonar.projectKey=gateway-service \
+          -Dsonar.projectName="gateway-service" \
+          -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
+          -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+
+    - name: Run Semgrep Security Scan
+      uses: returntocorp/semgrep-action@v1
+      with:
+        config: >-
+          p/security-audit
+          p/java
+          p/owasp-top-ten
+          p/spring
+      continue-on-error: true
+
+  build-sign-push:
+    name: Build, Sign & Push Docker Image
+    needs: code-quality
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read      
+      security-events: write
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Build with Maven
+      run: mvn clean package -DskipTests
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+
+    - name: Log in to Docker Hub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+
+    - name: Extract metadata
+      id: meta
+      uses: docker/metadata-action@v4
+      with:
+        images: ${{ env.DOCKER_IMAGE }}
+        tags: |
+          type=sha,prefix={{branch}}-
+          type=raw,value=latest
+
+    - name: Build and push Docker image
+      id: build-push
+      uses: docker/build-push-action@v4
+      with:
+        context: .
+        push: true
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
+
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        image-ref: ${{ env.DOCKER_IMAGE }}:latest
+        format: 'sarif'
+        output: 'trivy-results.sarif'
+        severity: 'CRITICAL,HIGH'
+
+    - name: Upload Trivy results
+      uses: github/codeql-action/upload-sarif@v2
+      if: always()
+      with:
+        sarif_file: 'trivy-results.sarif'
+
+    - name: Generate SBOM
+      uses: anchore/sbom-action@v0
+      with:
+        image: ${{ env.DOCKER_IMAGE }}:latest
+        format: spdx-json
+        output-file: sbom.spdx.json
+
+    - name: Upload SBOM
+      uses: actions/upload-artifact@v3
+      with:
+        name: sbom
+        path: sbom.spdx.json
+
+    - name: Install Cosign
+      uses: sigstore/cosign-installer@v3.3.0
+
+    - name: Sign Docker image
+      env:
+        COSIGN_PRIVATE_KEY: ${{ secrets.COSIGN_PRIVATE_KEY }}
+        COSIGN_PASSWORD: ${{ secrets.COSIGN_PASSWORD }}
+        TAGS: ${{ steps.meta.outputs.tags }}
+      run: |
+        echo "$COSIGN_PRIVATE_KEY" > cosign.key
+        for tag in $TAGS; do
+          echo "Signing $tag..."
+          cosign sign --key cosign.key --yes $tag
+        done
+        rm cosign.key
+
+  deploy:
+    name: Deploy to Kubernetes
+    needs: build-sign-push
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install Cosign
+      uses: sigstore/cosign-installer@v3.3.0
+
+    - name: Set up Kubeconfig
+      run: |
+        mkdir -p $HOME/.kube
+        echo "${{ secrets.KUBE_CONFIG }}" | base64 --decode > $HOME/.kube/config
+        chmod 600 $HOME/.kube/config
+
+    - name: Verify cluster connection
+      run: |
+        kubectl cluster-info
+        kubectl get nodes
+
+    - name: Verify image signature before deploy
+      run: |
+        kubectl get configmap cosign-pub-key -n ${{ env.KUBE_NAMESPACE }} -o jsonpath='{.data.cosign\.pub}' > cosign.pub
+        cosign verify --key cosign.pub ${{ env.DOCKER_IMAGE }}:latest
+        echo "✅ Image signature verified!"
+
+    - name: Deploy to Kubernetes
+      run: |
+        kubectl apply -f k8s/02-configmaps.yaml -n ${{ env.KUBE_NAMESPACE }}
+        kubectl apply -f k8s/07-gateway.yaml -n ${{ env.KUBE_NAMESPACE }}
+
+        kubectl set image deployment/gateway \
+          gateway=${{ env.DOCKER_IMAGE }}:latest \
+          -n ${{ env.KUBE_NAMESPACE }}
+        
+        kubectl annotate deployment/gateway \
+          kubernetes.io/change-cause="Deployed ${{ github.sha }} by ${{ github.actor }} at $(date)" \
+          -n ${{ env.KUBE_NAMESPACE }} --overwrite
+
+    - name: Wait for rollout
+      run: |
+        kubectl rollout status deployment/gateway \
+          -n ${{ env.KUBE_NAMESPACE }} \
+          --timeout=5m
+
+    - name: Verify Linkerd injection
+      run: |
+        CONTAINERS=$(kubectl get pods -n ${{ env.KUBE_NAMESPACE }} \
+          -l app=gateway \
+          -o jsonpath='{.items[0].spec.containers[*].name}')
+        
+        if echo "$CONTAINERS" | grep -q "linkerd-proxy"; then
+          echo "✅ Linkerd proxy is injected"
+        else
+          echo "❌ WARNING: Linkerd proxy NOT found"
+          exit 1
+        fi
+
+    - name: Verify deployment health
+      run: |
+        kubectl get pods -n ${{ env.KUBE_NAMESPACE }} -l app=gateway
+        kubectl wait --for=condition=ready pod \
+          -l app=gateway \
+          -n ${{ env.KUBE_NAMESPACE }} \
+          --timeout=300s
+
+    - name: Check mTLS status
+      run: |
+        curl -fsL https://run.linkerd.io/install | sh
+        export PATH=$PATH:$HOME/.linkerd2/bin
+        linkerd viz stat deployment/gateway -n ${{ env.KUBE_NAMESPACE }} || echo "Metrics pending"

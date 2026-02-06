@@ -1,0 +1,25 @@
+2026-01-19 17:22:58 [parallel-5] DEBUG - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/logout', method=POST}
+2026-01-19 17:22:58 [parallel-5] DEBUG - Request 'GET /api/patients' doesn't match 'POST /logout'
+2026-01-19 17:22:58 [parallel-5] DEBUG - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/api/auth/login', method=POST}
+2026-01-19 17:22:58 [parallel-5] DEBUG - Request 'GET /api/patients' doesn't match 'POST /api/auth/login'
+2026-01-19 17:22:58 [parallel-5] DEBUG - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/api/auth/register', method=POST}
+2026-01-19 17:22:58 [parallel-5] DEBUG - Request 'GET /api/patients' doesn't match 'POST /api/auth/register'
+2026-01-19 17:22:58 [parallel-5] DEBUG - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/api/auth/refresh', method=POST}
+2026-01-19 17:22:58 [parallel-5] DEBUG - Request 'GET /api/patients' doesn't match 'POST /api/auth/refresh'
+2026-01-19 17:22:58 [parallel-5] DEBUG - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/actuator/health', method=null}
+2026-01-19 17:22:58 [parallel-5] DEBUG - Request 'GET /api/patients' doesn't match 'null /actuator/health'
+2026-01-19 17:22:58 [parallel-5] DEBUG - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/api/patients/me', method=GET}
+2026-01-19 17:22:58 [parallel-5] DEBUG - Request 'GET /api/patients' doesn't match 'GET /api/patients/me'
+2026-01-19 17:22:58 [parallel-5] DEBUG - No matches found
+2026-01-19 17:22:58 [parallel-5] DEBUG - Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/api/patients/**', method=GET}
+2026-01-19 17:22:58 [parallel-5] DEBUG - Checking match of request : '/api/patients'; against '/api/patients/**'
+2026-01-19 17:22:58 [parallel-5] DEBUG - matched
+2026-01-19 17:22:58 [parallel-5] DEBUG - Checking authorization on '/api/patients' using org.springframework.security.authorization.AuthorityReactiveAuthorizationManager@358a9d21
+2026-01-19 17:22:58 [parallel-5] DEBUG - Authorization successful
+2026-01-19 17:22:58 [parallel-5] INFO  - AUTH_ATTEMPT | time=2026-01-19 17:22:58 | ip=0:0:0:0:0:0:0:1 | method=GET | path=/api/patients | user=dr.smith | userId=4d7045e7-b148-449d-bb1e-a5962e3855d0 | roles=offline_access,default-roles-healthcare,doctor,uma_authorization,FACTOR_BEARER
+2026-01-19 17:22:58 [reactor-http-nio-7] INFO  - AUTH_SUCCESS | time=2026-01-19 17:22:58 | ip=0:0:0:0:0:0:0:1 | method=GET | path=/api/patients | user=dr.smith | userId=4d7045e7-b148-449d-bb1e-a5962e3855d0 | roles=offline_access,default-roles-healthcare,doctor,uma_authorization,FACTOR_BEARER | status=200 | duration=50ms
